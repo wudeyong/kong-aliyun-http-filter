@@ -1,8 +1,8 @@
 package = "kong-aliyun-http-filter"
 version = "0.0.1-1"
 source = {
-    url = "https://github.com/jicong/kong-aliyun-http-filter",
-    tag = "v0.0.1"
+    url = "git://github.com/jicong/kong-aliyun-http-filter",
+    branch = "master"
 }
 description = {
     summary = "A Kong plugin for aliyun slb filter",

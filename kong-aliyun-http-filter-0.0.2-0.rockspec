@@ -1,7 +1,7 @@
 package = "kong-aliyun-http-filter"
 version = "0.0.2-0"
 source = {
-    url = "git://github.com/jicong/kong-aliyun-http-filter",
+    url = "https://github.com/jicong/kong-aliyun-http-filter",
     branch = "master"
 }
 description = {
@@ -17,7 +17,7 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-    ["kong.plugins.aliyun-http-filter.handler"] = "kong/plugins/aliyun-http-filter/handler.lua",
-    ["kong.plugins.aliyun-http-filter.schema"] = "kong/plugins/aliyun-http-filter/schema.lua",
+    ["kong.plugins.https-filter.handler"] = "kong/plugins/aliyun-http-filter/handler.lua",
+    ["kong.plugins.http-filter.schema"] = "kong/plugins/aliyun-http-filter/schema.lua",
     }
 }
